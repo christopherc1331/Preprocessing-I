@@ -134,3 +134,30 @@ html,
 body {
   height: 100%;
 }
+.container {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+  font-family: "Comic Sans MS";
+  color: #066322;
+}
+button {
+  font-family: "Comic Sans MS";
+}
+/* Mixins */
+.text-class {
+  font-family: "Comic Sans MS";
+}
+/* Mixins */
+/* Variables */
+/* Variables */

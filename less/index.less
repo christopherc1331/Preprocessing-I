@@ -50,10 +50,47 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
 	height: 100%;
 }
 
+
+.container {
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;	
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+	.text-class();
+	color: @font-color;
+}
+
+button{
+	.text-class();
+}
+
+
+/* Mixins */
+
+.text-class {
+	font-family: "Comic Sans MS";
+}
+
+/* Mixins */
+
+
+/* Variables */
+
+@main-color: #c1ebff;
+@trim-color: #10a59b;
+@font-color: #066322;
+
+/* Variables */
+
+header {
+
+}
