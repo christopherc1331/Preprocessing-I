@@ -163,3 +163,34 @@ header {
 		}
 	}
 }
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	height: 15rem;
+
+	.chunk {
+		width: 48%;
+	}
+	.chunk1 {
+		display: flex;
+		flex-direction: column;
+		ul {
+			height: 100%	;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			li {
+				border-top: dotted @trim-color;
+				border-bottom: dotted @trim-color;
+				padding: 0.25rem 0;
+			}
+		}
+	}
+}
+
+.chunk2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

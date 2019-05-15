@@ -227,3 +227,31 @@ header nav a:hover {
 .intro button:hover {
   background-color: #7e7f7f;
 }
+.skills {
+  display: flex;
+  justify-content: space-between;
+  height: 15rem;
+}
+.skills .chunk {
+  width: 48%;
+}
+.skills .chunk1 {
+  display: flex;
+  flex-direction: column;
+}
+.skills .chunk1 ul {
+  height: 100%	;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.skills .chunk1 ul li {
+  border-top: dotted #10a59b;
+  border-bottom: dotted #10a59b;
+  padding: 0.25rem 0;
+}
+.chunk2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
