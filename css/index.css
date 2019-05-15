@@ -136,7 +136,7 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 880px;
+  max-width: 750px;
   margin: 0 auto;
 }
 h1,
@@ -147,9 +147,27 @@ h5,
 h6,
 p,
 li,
-a {
+a,
+nav {
   font-family: "Comic Sans MS";
-  color: #066322;
+}
+h6 {
+  font-size: 1rem;
+}
+h5 {
+  font-size: 1.1rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 1.75rem;
 }
 button {
   font-family: "Comic Sans MS";
@@ -158,13 +176,16 @@ button {
 .text-class {
   font-family: "Comic Sans MS";
 }
+.box-styling {
+  border-radius: 2.5rem;
+}
 /* Mixins */
 /* Variables */
 /* Variables */
 header {
   width: 100%;
   height: 2rem;
-  margin: 2% 0;
+  margin-top: 1rem;
   background-color: #c1ebff;
   border-radius: 2.5rem;
 }
@@ -180,4 +201,29 @@ header nav a {
 header nav a:hover {
   background-color: #10a59b;
   border-radius: 2.5rem;
+}
+.intro {
+  margin: 2rem 0;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #10a59b;
+  color: #effffc;
+  border-radius: 2.5rem;
+  height: 25rem;
+}
+.intro img {
+  align-self: flex-end;
+}
+.intro img {
+  width: 40%;
+  height: auto;
+}
+.intro button {
+  border-radius: 2.5rem;
+}
+.intro button:hover {
+  background-color: #7e7f7f;
 }
